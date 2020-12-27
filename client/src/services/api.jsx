@@ -169,6 +169,7 @@ function createArticle (articleInfo) {
     });
   } catch (err) {
     console.log(err);
+    return err;
   }
 }
 
@@ -187,6 +188,7 @@ function createUserHistory (userId, articleInfo) {
     });
   } catch (err) {
     console.log(err);
+    return err;
   }
 }
 
